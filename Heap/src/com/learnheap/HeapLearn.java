@@ -19,21 +19,20 @@ public class HeapLearn {
         minHeap.print();
 
         System.out.println();
-
-        List<Integer> data = minHeap.heapSort();
-        System.out.println(data);
+//        List<Integer> data = minHeap.heapSort();
+//        System.out.println(data);
 
         MaxHeap<Integer> maxHeap = new MaxHeap<>();
-        maxHeap.insert(5);
         maxHeap.insert(8);
-        maxHeap.insert(9);
         maxHeap.insert(7);
+        maxHeap.insert(9);
+        maxHeap.insert(10);
         maxHeap.insert(11);
+        maxHeap.insert(12);
+        maxHeap.insert(14);
         maxHeap.insert(13);
-        maxHeap.insert(2);
-        maxHeap.insert(1);
+        maxHeap.insert(5);
 
-        maxHeap.remove();
         maxHeap.print();
     }
 }
